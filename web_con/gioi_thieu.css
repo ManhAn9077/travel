@@ -1,0 +1,107 @@
+#start{
+    background-color: orange;
+    height: 100px;
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header p{
+    position:absolute;
+    top: 45px;
+    left: 40%;
+    font-family: 'Georgia', 'Times New Roman', 'Times', 'serif';
+    font-size: 25px;
+    color: white;
+}
+
+#search{
+    line-height: 5px;
+    padding-top:15px;
+    padding-right:25px;
+    float: right;
+
+}
+#search input{
+    width: 295px;
+    height: 25px;
+}
+
+
+
+header, nav{
+
+    margin: 5px 10px;
+}
+nav{
+    background: #484848;
+    border-radius: 5px;
+
+}
+nav ul{
+    display: flex;
+
+}
+nav> ul li{
+    list-style: none; 
+    border-right: 1px solid #ccc;
+    border-left:1px solid #333;
+}
+nav> ul li a{
+    display: block;
+    padding: 0 25px;
+    line-height: 50px;
+    color: #f1f2f3;
+    text-decoration: none;
+}
+
+nav ul li:hover>a{
+    background: red;
+    opacity: .7;
+    color: yellow;
+}
+
+nav li ul{
+    display: none;
+    min-width: 350px;
+    position: absolute;
+}
+nav li>ul li{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: #999;
+    text-align: left;
+}
+
+
+
+
+
+
+footer{
+    margin-top: 25px;
+    background-color: black;
+    width: 100%;
+    height: 235px;
+}
+footer div{
+    margin-top:25px;
+    width: 33%;
+    float:left;
+    border-left:1px solid white;
+}
+footer div p{
+    margin-top: 20px;
+    color:white;
+    padding-top: 15px;
+    padding-left:85px
+}
+footer div h3{
+    color:white;
+    padding-left:145px;
+    padding-top:15px
+}

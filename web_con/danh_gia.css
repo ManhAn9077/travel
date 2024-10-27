@@ -1,0 +1,204 @@
+#start{
+    background-color: orange;
+    height: 100px;
+    width: 100%;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header, nav{
+    
+    margin: 5px 10px;
+}
+header nav ul li{
+    transition: all 0.1s ease-in-out;
+    padding-left: 60px;
+}
+header nav ul li:hover{
+    transform: scale(1.1);
+}
+nav{
+
+    border-radius: 5px; 
+}
+nav ul{
+    display: flex;
+    background-color: #000000;
+    border-radius: 15px;
+}
+nav> ul li{
+    list-style: none; 
+    font-family: 'Monospace';
+    font-size: 22px;
+}
+nav> ul li a{
+    display: block;
+    padding: 0 25px;
+    line-height: 50px;
+    color: #00ddff;
+    text-decoration: none;
+}
+
+
+
+
+nav li ul{
+    display: none;
+    min-width: 350px;
+    position: absolute;
+
+}
+nav li>ul li{
+    width: 100%;
+    border: none;
+
+    text-align: left;
+}
+
+nav  li:hover > ul{
+    display:  block;
+}
+
+nav > ul li > ul li >ul{
+    margin-left: 352px;
+    margin-top: -50px;
+}
+
+
+
+
+header nav ul li{
+    transition: all 0.1s ease-in-out;
+
+}
+header nav ul li:hover{
+    transform: scale(1.1);
+}
+
+
+article div video{
+    border-top-right-radius: 35px;
+}
+article div input{
+    height: 105px;
+    border-radius: 15px;;
+    width: 95%;
+    margin-left: 10px ;
+}
+article div button{
+    margin:25px 140px;
+    padding:10px 25px;
+    border-radius: 15px;
+    background-color: aquamarine;
+}
+article div#contact {
+    margin-left:75px;
+    margin-top:20px;
+        
+    
+}
+article div#contact a{
+    padding-left:15px;
+}
+article div#contact a img{
+    border-radius: 25px;
+}
+#thank{
+    text-align: center;
+    font-size: 25px;
+    color: #2c2c2c;
+    background-color: #d5d5d5;
+    letter-spacing: .05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+
+
+
+
+
+article video{
+    width: 100%;
+
+
+}
+
+
+
+
+footer{
+    margin-top: 25px;
+    background-color: black;
+    width: 100%;
+    height: 235px;
+}
+footer div{
+    margin-top:25px;
+    width: 33%;
+    float:left;
+    border-left:1px solid white;
+}
+footer div p{
+    margin-top: 20px;
+    color:white;
+    padding-top: 15px;
+    padding-left:85px
+}
+footer div h3{
+    color:white;
+    padding-left:145px;
+    padding-top:15px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    margin-top: 25px;
+    background-color: black;
+    width: 100%;
+    height: 235px;
+}
+footer div{
+    margin-top:25px;
+    width: 33%;
+    float:left;
+    border-left:1px solid white;
+}
+footer div p{
+    margin-top: 20px;
+    color:white;
+    padding-top: 15px;
+    padding-left:85px
+}
+footer div h3{
+    color:white;
+    padding-left:145px;
+    padding-top:15px
+}

@@ -1,0 +1,168 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header, nav{
+    
+    margin: 5px 10px;
+}
+header nav ul li{
+    transition: all 0.1s ease-in-out;
+}
+header nav ul li:hover{
+    transform: scale(1.1);
+}
+nav{
+
+    border-radius: 5px; 
+}
+nav ul{
+    display: flex;
+}
+nav> ul li{
+    list-style: none; 
+    font-family: 'Monospace';
+    font-size: 22px;
+}
+nav> ul li a{
+    display: block;
+    padding: 0 25px;
+    line-height: 50px;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+
+
+nav li ul{
+    display: none;
+    min-width: 350px;
+    position: absolute;
+}
+nav li>ul li{
+    width: 100%;
+    border: none;
+
+    text-align: left;
+}
+
+nav  li:hover > ul{
+    display:  block;
+}
+
+nav > ul li > ul li >ul{
+    margin-left: 352px;
+    margin-top: -50px;
+}
+
+
+header nav{
+    position: absolute;
+    top: 30px;
+}
+header #search{
+    position: absolute;
+    top: 30px;
+    right: 15px;
+}
+
+
+
+bang ul li a{ 
+    padding:25px 15px 15px 25px;
+
+}
+
+#search{
+    line-height: 5px;
+    float: right;
+    padding-top:15px;
+    padding-right:25px;
+    
+}
+#search input{
+    width: 295px;
+    height: 25px;
+    border-radius: 10px;
+    padding:5px 5px;
+}
+#search button{
+    background-color: aqua;
+    padding: 5px 5px;
+    border-radius: 10px;
+    color: rgb(47, 9, 9);
+}
+
+
+
+
+
+article  a{
+    position: absolute;
+        top: 160px;
+        left:600px;
+    font-size: 25px;
+    color: wheat;
+    text-decoration: none;
+}
+article  h1{
+    position: absolute;
+        top: 230px;
+        left:450px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+article  h2{
+    position: absolute;
+        top: 280px;
+        left:370px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+article #book div{
+    float:left;
+    display: block;
+    margin-right:35px;
+
+}
+
+article #book{
+    position: absolute;
+        top:370px;
+        left:200px;
+}
+
+article #book div img{
+    border-radius: 12px;
+}
+
+article #book div p{
+    display: block;
+    background-color: white;
+    color: rgb(0, 94, 255);
+    padding: 10px 10px;
+    border-radius: 15px;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.book{
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+article .book:hover{
+    transform: scale(1.3);
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,192 @@
+#start{
+    background-color: orange;
+    height: 100px;
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header p{
+    position:absolute;
+    top: 45px;
+    left: 40%;
+    font-family: 'Georgia', 'Times New Roman', 'Times, serif';
+    font-size: 25px;
+    color: white;
+}
+
+header #search{
+    line-height: 5px;
+    float: right;
+    padding-top:15px;
+    padding-right:25px;
+
+}
+header #search input{
+    width: 295px;
+    height: 25px;
+}
+
+
+
+header, nav{
+
+    margin: 5px 10px;
+}
+nav{
+    background: #484848;
+    border-radius: 5px;
+}
+nav ul{
+    display: flex;
+}
+nav> ul li{
+    list-style: none; 
+    border-right: 1px solid #ccc;
+    border-left:1px solid #333;
+}
+nav> ul li a{
+    display: block;
+    padding: 0 25px;
+    line-height: 50px;
+    color: #f1f2f3;
+    text-decoration: none;
+}
+
+nav ul li:hover>a{
+    background: red;
+    opacity: .7;
+    color: yellow;
+}
+
+nav li ul{
+    display: none;
+    min-width: 350px;
+    position: absolute;
+    float:left;
+}
+nav li>ul li{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: #999;
+    text-align: left;
+}
+
+
+
+header nav ul li{
+    transition: all 0.1s ease-in-out;
+
+}
+header nav ul li:hover{
+    transform: scale(1.1);
+}
+
+
+article div video{
+    border-top-right-radius: 35px;
+}
+article div input{
+    height: 105px;
+    border-radius: 15px;;
+    width: 95%;
+    margin-left: 10px ;
+}
+article div button{
+    margin:25px 130px;
+    padding:10px 25px;
+    border-radius: 15px;
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+#center div{
+    margin-bottom: 45px;
+    margin-left:35px;
+}
+#center div img{
+    padding-right:15px;
+}
+.item{
+    margin-bottom:25px;
+    border-left: 1px solid;
+}
+#item1{
+    border-right: 1px solid ;
+}
+
+#item1 div{
+    margin-right: 15px;
+
+}
+#item1 div img{
+    padding-bottom:15px
+}
+#item1 div p{
+    padding-bottom:35px
+}
+#item3{
+    border-left:1px solid;
+}
+#item3 img{
+    padding-bottom:10px;
+    padding-left:25px;
+    
+}
+#item3 p{
+    padding-bottom:70px;
+    padding-left:25px;
+}
+
+
+
+footer{
+    margin-top: 25px;
+    background-color: black;
+    width: 100%;
+    height: 235px;
+}
+footer div{
+    margin-top:25px;
+    width: 33%;
+    float:left;
+    border-left:1px solid white;
+}
+footer div p{
+    margin-top: 20px;
+    color:white;
+    padding-top: 15px;
+    padding-left:85px
+}
+footer div h3{
+    color:white;
+    padding-left:145px;
+    padding-top:15px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
